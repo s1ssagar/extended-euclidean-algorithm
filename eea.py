@@ -1,5 +1,6 @@
 import sys
 
+#author tolgabuyuktanir
 #Python program for Extended Euclidean algorithm
 def egcd(a, b):
     if a == 0:
@@ -16,7 +17,7 @@ def main():
         a=int(sys.argv[1])
         m=int(sys.argv[2])
         gcd, x, y = egcd(a,m)
-        print("gdc:"+str(gcd)+" x:"+str(x), " y:"+str(y))
+        print("gdc:"+str(gcd)+" x:"+str(x)+" y:"+str(y))
 
 if __name__ == "__main__":
     main()
