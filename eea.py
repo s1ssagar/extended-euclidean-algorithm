@@ -1,6 +1,6 @@
 import sys
 import math
-#Python program for Extended Euclidean algorithm
+#Python script for Extended Euclidean Algorithm
 def egcd(a, b):
     if a == 0:
         return (b, 0, 1)
